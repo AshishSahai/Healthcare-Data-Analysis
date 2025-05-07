@@ -81,6 +81,7 @@ def insurance_by_medical_condition(data):
     plt.xticks(rotation = 45, ha = "right")
     plt.legend(title =  "Insurance Provider", bbox_to_anchor = (1.05,1), loc = "upper left")
     plt.tight_layout()
+    plt.savefig("images/insurance_by_medical_condition.png")
     plt.show()
     #Outcome : Cigna, Medicare and United Health Care are the leading Insurance Provider to maximum number of people with serious medical conditions.
 
@@ -112,6 +113,7 @@ def seaborn_scatter_stay_vs_billing(data):
     plt.ylabel("Billing Amount ($)")
     plt.legend(title="Age Group", bbox_to_anchor=(1.05, 1), loc="upper left")
     plt.tight_layout()
+    plt.savefig("images/seaborn_scatter_stay_vs_billing.png")
     plt.show()
 
 
@@ -124,6 +126,7 @@ def plot_total_billing_by_age(data):
     plt.ylabel("Billing Amount")
     plt.xticks(rotation = 45)
     plt.tight_layout()
+    plt.savefig("images/plot_total_billing_by_age.png")
     plt.show()
 
 
@@ -139,6 +142,7 @@ def plot_avg_billing_by_age(data):
     plt.xticks(rotation = 45)
     plt.grid(True)
     plt.tight_layout()
+    plt.savefig("images/plot_avg_billing_by_age.png")
     plt.show()
 
 
@@ -155,7 +159,7 @@ def main():
 
 
 
-if __name__ == main():
+if __name__ == "__main__":
     main()
 
 
