@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+*.db  # SQLite database files
+
+# Log files
+*.log
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/pycharm
+
+# Output files
+duplicate_rows.csv
